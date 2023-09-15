@@ -36,12 +36,10 @@ header h1 {
 header h1:hover {
   font-size: 50px;
 }
-header nav {
+header nav.bg-eze {
+  background-image: linear-gradient(black, gray);
   padding-top: 10px;
   text-align: center;
-}
-header nav ul {
-  list-style: none;
 }
 
 .img-header {
@@ -141,6 +139,20 @@ a.no-deco-2 small {
   animation-duration: 4s;
   animation-delay: 2s;
 }
+.cent {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.button, .but {
+  background-color: black;
+  color: white;
+}
+
 section#prueba {
   height: 400px;
   width: 100%;

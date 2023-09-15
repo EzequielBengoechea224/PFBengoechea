@@ -1,4 +1,7 @@
 @import "animations";
+
+$bg-black: black;
+
 *{
     margin: 0;
     padding: 0;
@@ -28,12 +31,10 @@ header{
             font-size: 50px;
         }
     }
-    nav{
+    nav.bg-eze{
+        background-image: linear-gradient(black,gray); 
         padding-top: 10px;
         text-align: center;
-        ul{
-            list-style: none;
-        }
     }
 
 }
@@ -172,7 +173,27 @@ a.no-deco-2 small{
 }
 
 
+//css para buttons de catalogo
 
+.cent{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.button{
+    background-color: $bg-black;
+    color: white;
+}
+
+// cree esta clase para usar "@extend" nada mas 
+.but{
+    @extend .button;
+}
 
 
 
