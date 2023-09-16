@@ -15,3 +15,7 @@ que no lo vi rentable en mi proyecto actual jaja.
 
 Por las dudas si posicionan el mouse sobre el h1 del header este se agrandara, pero solo en las pantallas de escritorio 
 o notebook (esta configurado asi, en el archivo scss se puede observar).
+
+//Entrega proyecto final
+	Solo tuve un inconveniente que fue que no pude conectar la pagina de error, Trate de varias formas y me tiraba error 
+para conectar la pag con el error 404 not found. Mas alla de eso, no tuve ningun inconveniente.
