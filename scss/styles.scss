@@ -215,3 +215,26 @@ section#prueba{
         }
     }
 }
+
+
+
+//sass para la pagina error
+
+main{
+    section#error{
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(to right, $bg-black, gray);
+    }
+    div#cont-error{
+        position: relative;
+        top: 50%;
+        h4#errorr{
+            color: white;
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }   
+}
+
