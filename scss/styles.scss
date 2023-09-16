@@ -14,7 +14,7 @@ header{
         "img titulo nav";
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-        background-color: black;
+        background-color: $bg-black;
         color: white;
     }
     img{
@@ -73,7 +73,7 @@ main{
 }
 
 footer{
-    background-color: black;
+    background-color: $bg-black;
     display: grid;
     grid-template-areas: 
     "img par volver";
@@ -98,7 +98,7 @@ footer{
 }
  
 .col-separador{
-    background-color: black;
+    background-color: $bg-black;
     color: white;
 }
 
